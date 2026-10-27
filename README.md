@@ -32,7 +32,7 @@ stock-market-data-pipeline/
     requirements.txt
     .gitignore
     stockmarketpipeline_tests/
-        └── test_main.py
+         test_main.py
 
 ### Setup
 
