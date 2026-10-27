@@ -70,7 +70,9 @@ Replace the example password with your PostgreSQL password. Do not commit `.env`
 
 # 5. Set up the database
 
-Create a PostgreSQL database named `stock_market_db`, then execute the SQL statements that create the `stocks`, `daily_prices`, and `pipeline_runs` tables. See the project setup instructions for the table definitions.
+Create a PostgreSQL database named `stock_market_db`.
+
+Open the database and execute the SQL statements in 'schema.sql' to create the required tables.
 
 # 6. Run the data pipeline
 
