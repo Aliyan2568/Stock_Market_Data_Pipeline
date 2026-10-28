@@ -1,8 +1,8 @@
-# Stock Market Data Pipeline
+### Stock Market Data Pipeline
 
 A Python built data pipeline that retrieves historical stock market data, stores it in PostgreSQL, and exposes it through a REST API built with FastAPI.
 
-# Features
+### Features
 
 - Fetches historical daily stock prices using yfinance
 - Stores stock information and daily prices in PostgreSQL
@@ -12,7 +12,7 @@ A Python built data pipeline that retrieves historical stock market data, stores
 - Logs pipeline activity and errors
 - Includes automated tests using pytest
 
-# Tech Stack
+### Tech Stack
 
 - Language: Python
 - Data Source: yfinance
@@ -22,7 +22,7 @@ A Python built data pipeline that retrieves historical stock market data, stores
 - Server: Uvicorn
 - Testing: pytest, HTTPX
 
-# Project Structure
+### Project Structure
 
 stock-market-data-pipeline/
     database.py
@@ -96,7 +96,7 @@ Open `http://127.0.0.1:8000/docs` to explore and test the API.
 
 Example: `GET /stocks/AAPL?limit=5` returns up to five recent daily price records for Apple.
 
-# Running Tests
+### Running Tests
 
 python -m pytest -v
 
