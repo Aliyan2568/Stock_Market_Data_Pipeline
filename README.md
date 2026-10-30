@@ -38,17 +38,13 @@ stock-market-data-pipeline/
 
 # 1. Clone the repository
 
-git clone https://github.com/YOUR-USERNAME/stock-market-data-pipeline.git
+git clone https://github.com/Aliyan2568/stock-market-data-pipeline.git
 cd stock-market-data-pipeline
 
-
-Replace `YOUR-USERNAME` with your GitHub username.
 
 # 2. Create a virtual environment
 
 python -m venv .venv
-
-Activate it on Windows PowerShell:
 
 .\.venv\Scripts\Activate.ps1
 
