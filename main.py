@@ -1,15 +1,12 @@
-
 from fastapi import FastAPI, HTTPException
 from sqlalchemy import text
 from database import engine
 
 app = FastAPI(title="Stock Market Data API")
 
-
 @app.get("/")
 def home():
     return {"message": "Stock Market Data API is running"}
-
 
 @app.get("/stocks")
 def get_stocks():
@@ -22,7 +19,6 @@ def get_stocks():
             {"ticker": row.ticker, "company_name": row.company_name}
             for row in result
         ]
-
 
 @app.get("/stocks/{ticker}")
 def get_stock_prices(ticker: str, limit: int = 30):
