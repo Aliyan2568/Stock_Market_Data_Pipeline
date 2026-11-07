@@ -1,4 +1,3 @@
-
 CREATE TABLE stocks (
     stock_id SERIAL PRIMARY KEY,
     ticker VARCHAR(10) UNIQUE NOT NULL,
