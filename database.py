@@ -1,4 +1,3 @@
-
 import os
 from dotenv import load_dotenv
 from sqlalchemy import create_engine
@@ -22,4 +21,4 @@ engine = create_engine(DATABASE_URL)
 
 def test_connection():
     with engine.connect():
-        print("Successfully connected to PostgreSQL!")
+        print("Connection Successful")
